@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-top {
+    background-color: #0C713D;
+}
+
+.header-top>.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Header-top__left */
+.color-phone,.color-email {
+    color:#D5EF50;
+}
+
+.space {
+    color:#D5EF50;
+}
+
+.bold-phone,.bold-email,.bold-login,.bold-register,.bold-VN {
+    color:#D5EF50;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.header-top__left {
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+/* Header-top__right */
+
+.header-top__right {
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+/* Header */
+.header>.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listNavbar {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .listNavbar li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .listNavbar li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black; /* Màu mặc định */
+  }
+  
+  .listNavbar li.active a {
+    color: #53B14A; 
+    font-weight: 600;/* Màu chữ khi trang đó đang active */
+  }
+  
+.icon-right {
+    display: flex;
+    gap:20px;
+}
+
+.icon-cart {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .icon-cart i {
+    font-size: 25px; /* Kích thước biểu tượng giỏ hàng */
+    color: black;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -10px; /* Điều chỉnh vị trí trên */
+    right: -10px; /* Điều chỉnh vị trí ngang */
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 4px 8px;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+  }
+  .icon-user i {
+    color: #000;
+    font-size: 25px;
+  }
+
+  .banner img {
+    width: 100%;
+    object-fit: cover;
+    padding-top: 10px;
+    height: 600px;
+  }

@@ -1,0 +1,110 @@
+.introduction-tea,.introduction-staff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:67px;
+}
+
+.img-tea_introduction,.img-staff_introduction {
+    object-fit: cover;
+    max-width: 510px;
+    height: 530px;
+    margin: 100px 50px;
+    border-radius: 5px;
+}
+
+.content_tea--introduction,.content_staff--introduction {
+    width: 490px;
+}
+
+.name_content,.name_content--staff {
+    color:#0C713D;
+    font-size: 27px;
+    font-weight: 550;
+}
+
+.description_content,.description_content-staff {
+    margin-top:30px;
+    line-height: 153.7%;
+}
+
+.introduction-staff {
+    padding-left: 100px;
+}
+
+.join-staff {
+    border: 1px solid #0C713D;
+    background: #fff;
+    padding: 10px;
+    margin-top:22px;
+    color:#0C713D;
+    font-size: 15px;
+    font-weight: 550;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Popular */
+
+.title_product--popular {
+    color:#0C713D;
+    font-size: 35px;
+    font-weight: 550;
+    text-align: center;
+}
+
+.section_product--popular {
+    object-fit: cover;
+    margin-left: 420px;
+    width: 350px;
+    padding: 10px;
+}
+
+.list-product--popular {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:20px;
+}
+
+.list-product--popular > li {
+    border: 1px solid #0C713D;
+    border-radius: 5px;
+    width: 260px;
+    margin-top: 10px;
+}
+
+.product-img {
+    margin:10px 30px;
+    object-fit: cover;
+}
+
+.product-name {
+    text-align: center;
+    color:#0C713D;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.product-brand {
+    text-align: center;
+    color:#747272;
+    margin-top: 10px;
+}
+
+.product-price {
+    text-align: center;
+    color:#0C713D;
+    margin-top: 10px;
+}
+
+.btn-addtoCart {
+    border: 1px solid #0C713D;
+    background: #fff;
+    color: #0C713D;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 65px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
